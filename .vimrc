@@ -15,6 +15,8 @@ Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'mhartington/oceanic-next'
 Plugin 'andreshazard/vim-logreview'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'majutsushi/tagbar'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
@@ -50,6 +52,9 @@ inoremap jk <esc>
 if (has('nvim'))
   tnoremap jk <C-\><C-n> 
 endif
+
+nmap <F8> :TagbarToggle<CR>
+nmap fo :CtrlPTag<cr>
 
 "airline setup
 let g:airline#extensions#tabline#enabled = 2
