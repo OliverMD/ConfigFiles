@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/oliverdownard/.oh-my-zsh
+export ZSH=/home/oliverdownard/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -49,11 +49,10 @@ ZSH_THEME="ys"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git aws brew compleat git-extras osx vagrant web-search)
+plugins=(git brew compleat git-extras osx vagrant web-search)
 
 # User configuration
 
-export PATH="/Applications/Couchbase Server.app/Contents/Resources/couchbase-core/bin/tools/:/Applications/Couchbase Server.app/Contents/Resources/couchbase-core/bin/:/usr/bin:/bin:/usr/sbin:/sbin:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -83,4 +82,4 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="/usr/local/bin:$PATH"
-export GOPATH="/Users/oliverdownard/go"
+export GOPATH="/home/oliverdownard/go"
