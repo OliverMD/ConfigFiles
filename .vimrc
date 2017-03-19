@@ -55,6 +55,10 @@ endif
 
 nmap <F8> :TagbarToggle<CR>
 nmap fo :CtrlPTag<cr>
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
 
 "airline setup
 let g:airline#extensions#tabline#enabled = 2
